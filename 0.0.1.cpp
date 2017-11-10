@@ -27,7 +27,7 @@ bool input(float * &elements, int num)
     return true;
 }
 
-void reverse(float *elements, unsigned int num)
+void reverse(float *elements, int num)
 {
     for(int i = 0; i < (num/2); i++){
         swap(elements[i],elements[num-(i+1)]);
